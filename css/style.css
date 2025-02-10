@@ -23,14 +23,19 @@ h2 {
 }
 
 /* Damion */
-.profire-photo p , .contact-text p{
+.profire-photo p,
+.contact-text p {
   font-family: "Damion", serif;
   font-weight: 400;
   font-style: normal;
 }
 
 /* Anonymouspro */
-.service-text , .profire-text , .works-text , .contact-form dt , footer p {
+.service-text,
+.profire-text,
+.works-text,
+.contact-form dt,
+footer p {
   font-family: "Anonymous Pro", serif;
   font-weight: 500;
   font-style: normal;
@@ -73,6 +78,21 @@ h1 {
   border-bottom: 1.5px solid;
   font-size: 48px;
   font-weight: 500;
+  transform: translateX(-100%);
+  opacity: 0;
+  animation: fade 3s forwards;
+}
+
+@keyframes fade {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }
 
 header nav {
@@ -171,12 +191,17 @@ h2::before {
   z-index: -1;
 }
 
-#profire h2 , #service h2 , #works h2 , #contact h2{
+#profire h2,
+#service h2,
+#works h2,
+#contact h2 {
   position: relative;
 }
 
-#profire h2::before ,#service h2::before ,
-#works h2::before , #contact h2::before {
+#profire h2::before,
+#service h2::before,
+#works h2::before,
+#contact h2::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -271,7 +296,7 @@ h2::before {
 
 .profire-photo ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
 }
 
@@ -304,7 +329,9 @@ h2::before {
   text-align: center;
 }
 
-.direction , .design , .coding {
+.direction,
+.design,
+.coding {
   width: 33%;
 }
 
@@ -352,7 +379,8 @@ h3 {
   text-align: right;
 }
 
-.works-no1 img , .works-no2 img {
+.works-no1 img,
+.works-no2 img {
   /* width: 350px; */
   /* height: 250px; */
   border: 1px solid;
@@ -380,13 +408,13 @@ h4 {
   bottom: 0;
   margin: auto;
   transform-origin: right top;
-  transform: scale(0,1);
+  transform: scale(0, 1);
   transition: transform .3s;
 }
 
 .works-text a:hover::before {
   transform-origin: left top;
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 
 
@@ -423,7 +451,7 @@ h4 {
   margin-bottom: 20px;
 }
 
-.contact-form dd input{
+.contact-form dd input {
   width: 100%;
 }
 
@@ -446,7 +474,7 @@ h4 {
   color: #8E6F0C;
 }
 
-.contact-text a::before{
+.contact-text a::before {
   content: "";
   width: 15px;
   height: 15px;
@@ -461,7 +489,7 @@ h4 {
   margin: auto;
 }
 
-.contact-text a::after{
+.contact-text a::after {
   content: "";
   width: 15px;
   height: 15px;
@@ -492,8 +520,3 @@ footer p {
   padding: 0px 12.5% 30px 12.5%;
   font-size: 14px;
 }
-
-
-
-
-
