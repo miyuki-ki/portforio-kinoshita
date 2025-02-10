@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #F0F0F0;
   /* padding-inline: 20px; */
@@ -211,6 +215,10 @@ h2::before {
 }
 
 /* profire */
+#profire h2 {
+  padding-top: 80px
+}
+
 .profire-text {
   padding-block: 80px;
   display: flex;
