@@ -216,11 +216,11 @@ h2::before {
 
 /* profire */
 #profire h2 {
-  padding-top: 80px
+  padding-block: 80px;
 }
 
 .profire-text {
-  padding-block: 80px;
+  padding-top: 80px;
   display: flex;
   gap: 50px;
   align-items: center;
