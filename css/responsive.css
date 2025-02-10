@@ -1,6 +1,10 @@
 @media (max-width:946px) {
 
   /* profire */
+  #profire h2 {
+    padding-top: 60px
+  }
+  
   .profire-text {
     gap: 30px;
   }
