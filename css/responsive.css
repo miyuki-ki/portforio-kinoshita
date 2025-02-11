@@ -6,16 +6,21 @@
   }
   
   .profire-text {
-    gap: 30px;
+    padding-inline: 5%;
   }
 
   .profire-left li {
     font-size: 16px;
   }
 
-  .profire-right li img {
-    width: 250px;
+  /* .profire-right {
+    height: 320px;
   }
+  
+  .profire-right li img {
+    height: 320px;
+  } */
+  
 
   .profire-photo {
     padding: 0 12% 100px 12%;
@@ -120,7 +125,8 @@
   }
 
   .profire-left {
-    width: 50%;
+    width: 100%;
+    padding-inline: 20%;
   }
 
   .profire-left li {
@@ -129,9 +135,10 @@
   }
 
   .profire-right {
-    width: 50%;
+    width: 100%;
     height: 350px;
     /* padding-left: 4%; */
+    padding-inline: 20%;
   }
 
   .profire-right li img {
@@ -260,18 +267,25 @@
     padding-block: 30px;
   }
 
+  .profire-left {
+    padding-inline: 10%;
+  }
+
   .profire-left li {
     font-size: 12px;
   }
 
   .profire-right {
-    height: 250px;
+    height: 270px;
+    padding-inline: 10%;
+    /* padding-inline: 20%; */
   }
 
   .profire-right li img {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
   }
+
 
   .profire-photo {
     padding: 0 12% 60px 12%;
@@ -293,7 +307,7 @@
   }
 
   .service-text {
-    padding: 0 20% 60px 20%;
+    padding: 0 15% 60px 15%;
     flex-direction: column;
     gap: 30px;
   }
@@ -326,7 +340,7 @@
   .works-text {
     padding-top: 50px;
     gap: 30px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .works-no1 img ,.works-no2 img {
